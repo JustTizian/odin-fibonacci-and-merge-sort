@@ -74,3 +74,9 @@ function merge(leftArr, rightArr) {
 
   return result;
 }
+
+console.log(mergeSort([]));
+console.log(mergeSort([1]));
+console.log(mergeSort([2, 5, 6]));
+console.log(mergeSort([2, 3, 4, 5, 8, 0, 1, 6, 7, 8]));
+console.log(mergeSort([1, 3, 99, 55, 23, 41, 37, 43, 12, 11, 109])); 
