@@ -22,11 +22,11 @@ function fibsRec(num) {
   return [...prev, next];
 }
 
-console.log(fibs(-1));
-console.log(fibs(0));
-console.log(fibs(1));
-console.log(fibs(4));
-console.log(fibs(10));
+console.log(fibsRec(-1));
+console.log(fibsRec(0));
+console.log(fibsRec(1));
+console.log(fibsRec(4));
+console.log(fibsRec(10));
 
 function mergeSort(nums) {
   if (!nums || nums.length === 0) return "Invalid Input";
